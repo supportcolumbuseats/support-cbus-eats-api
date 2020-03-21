@@ -13,6 +13,6 @@ and make sure `bundler` is installed, `gem install bundler`
 
 
 ### Running the command
-1. Run the following command: `AIRTABLE_API_KEY=xxxxx ruby fetch_airtable_data.rb > restaurants.json`
+1. Run the following command: `AIRTABLE_API_KEY=xxxxx ruby fetch_airtable_data.rb`
 2. Commit changes to `restaurant.json` and push to heroku
 
