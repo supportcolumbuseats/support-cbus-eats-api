@@ -25,6 +25,6 @@ restaurants = Airrecord.table(AIRTABLE_API_KEY, BASE, "Restaurants").all.map(&:f
 end
 
 
-File.open(File.join(File.dirname(__FILE__), 'restaurants.json'),"w") do |f|
+File.open(File.join(File.dirname(__FILE__), 'tmp', 'restaurants.json'),"w") do |f|
   f.write(restaurants.to_json)
 end
